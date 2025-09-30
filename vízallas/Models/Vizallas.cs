@@ -1,4 +1,4 @@
-﻿namespace vízallas.Models
+namespace Vizallas.Models
 {
     public class Vizallas
     {

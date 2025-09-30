@@ -1,14 +1,14 @@
-﻿using Microsoft.EntityFrameworkCore;
-using vízallas.Models;
+using Microsoft.EntityFrameworkCore;
+using Vizallas.Models;
 
-namespace vízallas.Data
+namespace Vizallas.Data
 {
     public class VizallasContext : DbContext
     {
-        public VizallasContext(DbContextOptions<VizallasContext> options)
-            : base(options)
+        public VizallasContext(DbContextOptions<VizallasContext> options) : base(options)
         {
         }
-        public DbSet<vízallas.Models.Vizallas> Vizallas { get; set; }
+
+        public DbSet<Models.Vizallas> VizallasAdatok { get; set; }
     }
 }

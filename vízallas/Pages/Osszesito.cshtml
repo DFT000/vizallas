@@ -1,0 +1,40 @@
+@page
+@model Vizallas.Pages.OsszesitoModel
+@{
+    ViewData["Title"] = "Összesítő";
+}
+
+<h1>Összesítő</h1>
+
+<form method="get">
+    <label>Folyó:</label>
+    <input type="text" name="Folyókeres" value="@Model.Folyókeres" />
+    <input type="submit" value="Keresés" />
+</form>
+
+@if (Model.Eredmeny.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Település</th>
+                <th>Minimum</th>
+                <th>Dátum</th>
+                <th>Maximum</th>
+                <th>Dátum</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model.Eredmeny)
+        {
+            <tr>
+                <td>@item.Település</td>
+                <td>@item.MinErtek</td>
+                <td>@item.MinDatum.ToShortDateString()</td>
+                <td>@item.MaxErtek</td>
+                <td>@item.MaxDatum.ToShortDateString()</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}

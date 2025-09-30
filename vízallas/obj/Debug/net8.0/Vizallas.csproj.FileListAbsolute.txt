@@ -1,0 +1,10 @@
+C:\Users\szkibak.szabolcs\source\repos\vízallas\obj\Debug\net8.0\Vizallas.csproj.AssemblyReference.cache
+C:\Users\szkibak.szabolcs\source\repos\vízallas\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\szkibak.szabolcs\source\repos\vízallas\obj\Debug\net8.0\Vizallas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\szkibak.szabolcs\source\repos\vízallas\obj\Debug\net8.0\Vizallas.AssemblyInfoInputs.cache
+C:\Users\szkibak.szabolcs\source\repos\vízallas\obj\Debug\net8.0\Vizallas.AssemblyInfo.cs
+C:\Users\szkibak.szabolcs\source\repos\vízallas\obj\Debug\net8.0\Vizallas.csproj.CoreCompileInputs.cache
+C:\Users\szkibak.szabolcs\source\repos\vízallas\obj\Debug\net8.0\Vizallas.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\szkibak.szabolcs\source\repos\vízallas\obj\Debug\net8.0\Vizallas.RazorAssemblyInfo.cache
+C:\Users\szkibak.szabolcs\source\repos\vízallas\obj\Debug\net8.0\Vizallas.RazorAssemblyInfo.cs
+C:\Users\szkibak.szabolcs\source\repos\vízallas\obj\Debug\net8.0\Vizallas.sourcelink.json
