@@ -1,7 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using vízallas.Data;
+using Vizallas.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+builder.Services.AddDbContext<VizallasContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("VizallasDB")));
 
 var app = builder.Build();
 
@@ -23,3 +30,7 @@ app.UseAuthorization();
 app.MapRazorPages();
 
 app.Run();
+
+
+var builder = WebApplication.CreateBuilder(args);
+
